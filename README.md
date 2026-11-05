@@ -1,6 +1,8 @@
 # MCP Lifecycle: Lightweight Clients, Shared Backends
 
-A technical case study and working Python transport extracted from an OpenBot integration.
+A Python transport and technical case study from an OpenBot integration. It addresses three related challenges: discovering tools without immediately starting a backend, keeping client sessions separate, and handling a lost response without replaying a write.
+
+[Run the checks](#run-the-checks) · [Explore the implementation](http_stdio.py) · [Read the case study](docs/case-study.md).
 
 **By Tim Smykov.** I designed and implemented the runtime integration using AI-assisted development. OpenBot and the MCP ecosystem are upstream systems; this repository focuses on the client-side transport work, not authorship of those platforms.
 
